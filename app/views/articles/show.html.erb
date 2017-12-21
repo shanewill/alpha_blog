@@ -5,3 +5,8 @@
 <p>
   Description: <%= @article.description %>
 </p>
+
+<p>
+  <td><%= link_to "Edit this article", edit_article_path(@article) %></td> |
+  <%= link_to "Back to articles", articles_path %>
+</p>
