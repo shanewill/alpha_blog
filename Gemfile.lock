@@ -187,7 +187,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap
+  bootstrap (~> 4.0.0.beta2.1)
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
@@ -201,6 +201,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+  sprockets-rails
   sqlite3
   turbolinks (~> 5)
   tzinfo-data
